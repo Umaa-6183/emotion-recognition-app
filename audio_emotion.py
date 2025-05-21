@@ -4,6 +4,7 @@ import soundfile as sf
 import numpy as np
 from joblib import load
 
+
 def detect_audio_emotion(model_path='models/audio_emotion_model.joblib'):
     duration = 3
     fs = 44100

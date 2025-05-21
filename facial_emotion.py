@@ -1,6 +1,7 @@
 from fer import FER
 import cv2
 
+
 def detect_facial_emotion():
     detector = FER(mtcnn=True)
     cap = cv2.VideoCapture(0)
