@@ -1,0 +1,9 @@
+streamlit
+numpy
+joblib
+librosa
+scikit-learn
+deepface
+opencv-python-headless
+pillow
+soundfile
